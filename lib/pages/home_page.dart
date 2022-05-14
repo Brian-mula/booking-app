@@ -138,13 +138,15 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Container(
-              margin: const EdgeInsets.only(left: 5, right: 5),
+              margin: const EdgeInsets.only(left: 10, right: 10),
               padding: const EdgeInsets.only(
                   left: 10, top: 20, right: 10, bottom: 20),
               decoration: const BoxDecoration(
                   borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(20),
-                      bottomRight: Radius.circular(20)),
+                      bottomRight: Radius.circular(20),
+                      topLeft: Radius.circular(10),
+                      topRight: Radius.circular(10)),
                   color: Colors.white),
               child: const CustomeCard()),
           Container(
@@ -155,7 +157,9 @@ class HomePage extends StatelessWidget {
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(20),
-                      topRight: Radius.circular(20))),
+                      topRight: Radius.circular(20),
+                      bottomLeft: Radius.circular(10),
+                      bottomRight: Radius.circular(10))),
               child: const CustomCardText())
         ],
       ),
