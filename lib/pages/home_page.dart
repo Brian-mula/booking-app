@@ -1,7 +1,7 @@
-import 'package:dashboard/pages/widgets/big_text_widget.dart';
-import 'package:dashboard/pages/widgets/customCardText.dart';
-import 'package:dashboard/pages/widgets/custome_card.dart';
-import 'package:dashboard/pages/widgets/dropDownWidget.dart';
+import 'package:dashboard/widgets/big_text_widget.dart';
+import 'package:dashboard/widgets/customCardText.dart';
+import 'package:dashboard/widgets/custome_card.dart';
+import 'package:dashboard/widgets/dropDownWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -150,7 +150,7 @@ class HomePage extends StatelessWidget {
                   color: Colors.white),
               child: const CustomeCard()),
           Container(
-              margin: const EdgeInsets.only(left: 5, right: 5),
+              margin: const EdgeInsets.only(left: 10, right: 10),
               padding: const EdgeInsets.only(
                   left: 10, top: 20, right: 10, bottom: 20),
               decoration: const BoxDecoration(

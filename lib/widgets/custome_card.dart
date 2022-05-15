@@ -1,4 +1,4 @@
-import 'package:dashboard/pages/widgets/big_text_widget.dart';
+import 'package:dashboard/widgets/big_text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';

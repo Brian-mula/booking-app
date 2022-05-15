@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "298816933849",
+    "project_id": "booking-dashboard-2edae",
+    "storage_bucket": "booking-dashboard-2edae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298816933849:android:d7ee8d121062c7cba513c8",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298816933849-j2ule98q3dljl9mn1fvms5b20415kt9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dashboard",
+            "certificate_hash": "f524f42f8ef6bcc1380eb147a2750fc57ee0f6b8"
+          }
+        },
+        {
+          "client_id": "298816933849-lvjkpmbtik1j374ppu2vhkqdjpabuce2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYoU-DxGF9tmWjQtgYxIonW01q60kRCZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298816933849-lvjkpmbtik1j374ppu2vhkqdjpabuce2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
