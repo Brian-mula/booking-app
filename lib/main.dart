@@ -1,6 +1,8 @@
 import 'package:dashboard/main_home_page.dart';
 import 'package:dashboard/pages/authentication/loginPage.dart';
 import 'package:dashboard/pages/authentication/registerPage.dart';
+import 'package:dashboard/pages/seatPage.dart';
+import 'package:dashboard/pages/ticketPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const MainHomePage()
+        home: const TicketPage()
         // home:const Register(),
         );
   }
