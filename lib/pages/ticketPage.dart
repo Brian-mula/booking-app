@@ -50,6 +50,7 @@ class _TicketPageState extends State<TicketPage> {
               margin: const EdgeInsets.only(
                 top: 10,
               ),
+              color: Colors.white,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
